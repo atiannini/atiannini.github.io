@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Gulian Blog">
 <meta property="og:description" content="Fisherp值是Fisher先提出来的“显著性检验”理论体系中的概念：  有一个命题，称之为”零假设“（null hypothesis）H0； 找到一个统计量T，可以计算T的统计分布； 一次试验结果可以计算得到一个确切的T值（T0），在H0成立的情况下，出现比T0更极端情况的概率值记作p值； 如果p很小，则可以作为”零假设并不成立“的有力证据。  Fisher’s exact test假设检验：">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-16T08:13:21.796Z">
+<meta property="og:updated_time" content="2019-01-16T08:16:52.766Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hypothesis Testing">
 <meta name="twitter:description" content="Fisherp值是Fisher先提出来的“显著性检验”理论体系中的概念：  有一个命题，称之为”零假设“（null hypothesis）H0； 找到一个统计量T，可以计算T的统计分布； 一次试验结果可以计算得到一个确切的T值（T0），在H0成立的情况下，出现比T0更极端情况的概率值记作p值； 如果p很小，则可以作为”零假设并不成立“的有力证据。  Fisher’s exact test假设检验：">
@@ -326,7 +326,7 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2019-01-16T16:13:21+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2019-01-16T16:16:52+08:00">
                 2019-01-16
               </time>
             
@@ -387,7 +387,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  726
+                  727
                 </span>
               
 
@@ -433,7 +433,10 @@
 </ol>
 <h3 id="Fisher’s-exact-test"><a href="#Fisher’s-exact-test" class="headerlink" title="Fisher’s exact test"></a>Fisher’s exact test</h3><blockquote><p>假设检验：用来检验一次随机实验的结果是否支持对于某个随机实验的假设</p>
 <blockquote>
-<p>具体如下：<br>    随机事件发生的概率小于0.05则认定该事件为小概率事件。一般原则认为在某个假设前提下，一次随机实验的结果不会出现小概率事件。若一次随机实验的结果出现了小概率事件则认定该假设不被支持。<br>理论依据：超几何分布(无放回产品抽样实验) Hypergeometric<br>Hypergeometric举例：<br>    有N件物品，M件为次品，求取n件，其中有k件为次品的概率=(M,k)*(N-M,n-k)/(N,n)</p>
+<p>具体如下：<br>随机事件发生的概率小于0.05则认定该事件为小概率事件。一般原则认为在某个假设前提下，一次随机实验的结果不会出现小概率事件。若一次随机实验的结果出现了小概率事件则认定该假设不被支持。<br>理论依据：超几何分布(无放回产品抽样实验) Hypergeometric</p>
+<blockquote>
+<p>Hypergeometric举例：<br>有N件物品，M件为次品，求取n件，其中有k件为次品的概率=(M,k)*(N-M,n-k)/(N,n)</p>
+</blockquote>
 </blockquote>
 <footer><strong>CSDN</strong><cite><a href="https://blog.csdn.net/z54572/article/details/61199246" target="_blank" rel="noopener">Fisher精确检验的通俗解释</a></cite></footer></blockquote>
 <h2 id="Pearson和Neyman"><a href="#Pearson和Neyman" class="headerlink" title="Pearson和Neyman"></a>Pearson和Neyman</h2><p>关于备择假设Ha和两类错误（以及似然比检验），是E. Pearson和J. Neyman在1928年发表在《生物计量》杂志上的文章中提出的概念，他们建立了与Pearson简单的p值系统不同的一套称作“假设检验”的理论体系。<br>检验的显著水平（significancelevel），记作α；<br>H0为真而拒绝的错误，称作I类错误，又称弃真错误、假阳性（false positive）<br>H0为假Ha为真而没能拒绝H0的错误，称作II类错误，又称存伪错误、假阴性（false negative）。<br>而是否拒绝H0是将一次实验得到的统计量T0与事先确定的显著水平α相比较。</p>
